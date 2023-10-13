@@ -20,9 +20,9 @@ Ce projet utilise pnpm comme gestionnaire de paquets. Vous pouvez cependant util
 1. Clonez ce dépôt sur votre machine locale.
 2. Naviguez vers le dossier du projet que vous souhaitez exécuter.
 3. Installez les dépendances nécessaires :
-  - Avec pnpm: pnpm install
-  - Avec npm: npm install
-  - Avec yarn: yarn install
+    - Avec pnpm: pnpm install
+    - Avec npm: npm install
+    - Avec yarn: yarn install
 
 ### Exécution
 Suivez les instructions dans le fichier README.md de chaque sous-projet pour savoir comment le configurer et l'exécuter.

@@ -11,6 +11,7 @@
   - [Exécution](#exécution)
 - [Prérequis](#prérequis)
 - [Licence](#licence)
+- [Contact](#Contact)
 
 ## Introduction
 Bienvenue dans le Backend-Lab ! Ce dépôt regroupe divers petits projets back-end construits exclusivement avec Node.js. Chaque sous-dossier représente un mini-projet axé sur une technologie ou un concept spécifique du back-end. Le but de ce dépôt est de servir de terrain d'expérimentation et d'apprentissage pour divers aspects du développement back-end.
@@ -50,3 +51,6 @@ Pour certains sous-projets, des prérequis spécifiques pourraient être nécess
 
 ## Licence
 Ce projet est sous licence MIT. Pour plus d'informations, veuillez consulter le fichier [LICENSE](LICENSE).
+
+## Contact
+Pour toute question ou remarque, n'hésitez pas à m'envoyer un e-mail à [anthony.scrimali@gmail.com](mailto:anthony.scrimali@gmail.com).

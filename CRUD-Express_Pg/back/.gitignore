@@ -1,0 +1,10 @@
+.env
+node_modules
+server.js
+app.js
+
+routes
+controllers
+config
+connexion
+src

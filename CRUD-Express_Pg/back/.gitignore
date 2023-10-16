@@ -1,10 +1,8 @@
 .env
 node_modules
-server.js
-app.js
 
+.gitignore
 routes
 controllers
 config
 connexion
-src

@@ -1,8 +1,5 @@
 .env
 node_modules
 
-.gitignore
 routes
 controllers
-config
-connexion

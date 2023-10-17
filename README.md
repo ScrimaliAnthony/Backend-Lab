@@ -53,4 +53,8 @@ Pour certains sous-projets, des prérequis spécifiques pourraient être nécess
 Ce projet est sous licence MIT. Pour plus d'informations, veuillez consulter le fichier [LICENSE](LICENSE).
 
 ## Contact
-Pour toute question ou remarque, n'hésitez pas à m'envoyer un e-mail à [anthony.scrimali@gmail.com](mailto:anthony.scrimali@gmail.com).
+
+Pour toute question ou information supplémentaire, n'hésitez pas à me contacter :
+
+- E-mail: [anthony.scrimali@gmail.com](mailto:anthony.scrimali@gmail.com)
+- LinkedIn: [Anthony Scrimali](https://www.linkedin.com/in/anthony-scrimali-02187b146/)

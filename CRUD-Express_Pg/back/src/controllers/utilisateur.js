@@ -71,3 +71,18 @@ export const updateUtilisateur = async (req, res) => {
         res.status(400).json({message: "la requete à échoué ", message: error})
     }
 }
+
+export const deleteUtilisateur = async (req, res) => {
+    const { id } = req.params;
+    try {
+        await client.query(`
+            DELETE FROM utilisateur
+            WHERE id = $1
+        `, [ id ])
+        console.log("Utilisateur supprimé");
+        res.status(201).json({ message: "Utilisateur supprimé" });
+    } catch (error) {
+        console.log("Echec de la requête : " + error)
+        res.status(400).json({message: "la requete à échoué ", message: error})
+    }
+}

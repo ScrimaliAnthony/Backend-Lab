@@ -1,5 +1,20 @@
 # CRUD-Express_pg
 
+## Table des matières
+
+- [Description](#description)
+- [Installation](#installation)
+  - [Base de données](#base-de-données)
+  - [Backend](#backend)
+- [Technologies utilisées](#technologies-utilisées)
+- [Utilisation](#utilisation)
+  - [Routes disponibles](#routes-disponibles)
+- [Contribution](#contribution)
+- [Licence](#licence)
+- [Contact](#contact)
+
+
+
 ## Description
 
 CRUD-Express_pg est un simple projet backend construit avec Node.js et Express.js, utilisant PostgreSQL comme base de données. Il permet la réalisation d'opérations CRUD (Create, Read, Update, Delete) sur une table "utilisateur".

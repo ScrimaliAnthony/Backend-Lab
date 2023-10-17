@@ -28,3 +28,29 @@ export const getAllUtilisateur = async (req, res) => {
         res.status(400).json({message: "la requete à échoué ", message: error})
     }
 }
+
+export const searchUtilisateur = async (req, res) => {
+    const { search } = req.params;
+    let get;
+    try {
+        if(isNaN(search)) {
+            get = await client.query(`
+                SELECT *
+                FROM utilisateur
+                WHERE nom
+                ILIKE $1
+            `, [`${search}%`])
+        } else{
+            get = await client.query(`
+                SELECT *
+                FROM utilisateur
+                WHERE id = $1
+        `, [search])
+        }
+        console.log(get.rows)
+        res.status(200).json(get.rows);
+    } catch (error) {
+        console.error(error)
+        res.status(400).json({message: "la requete à échoué ", message: error})
+    }
+}

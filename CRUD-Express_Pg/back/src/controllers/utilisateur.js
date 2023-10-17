@@ -54,3 +54,20 @@ export const searchUtilisateur = async (req, res) => {
         res.status(400).json({message: "la requete à échoué ", message: error})
     }
 }
+
+export const updateUtilisateur = async (req, res) => {
+    const { nom, prenom } = req.body;
+    const { id } = req.params;
+    try {
+        await client.query(`
+            UPDATE utilisateur
+            SET nom = $1, prenom = $2
+            WHERE id = $3
+        `,  [ nom, prenom, id ])
+        console.log("Utilisateur modifé");
+        res.status(201).json({ message: "Utilisateur modifié" });
+    } catch (error) {
+        console.log("Echec de la requête : " + error)
+        res.status(400).json({message: "la requete à échoué ", message: error})
+    }
+}

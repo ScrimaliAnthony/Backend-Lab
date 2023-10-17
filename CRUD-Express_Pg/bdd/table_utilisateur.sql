@@ -1,5 +1,5 @@
-CREATE TABLE produit(
+CREATE TABLE utilisateur(
     id SERIAL PRIMARY KEY,
     nom VARCHAR(50) NOT NULL,
-    description_produit TEXT
+    prenom VARCHAR(50)
 );
